@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./.build",
+    "paths": {
+      "@common/*": ["./common/src/*"],
+      "@backend/*": ["./backend/src/*"]
+    },
+    "baseUrl": "."
+  },
+  "extends": "./tsconfig.base.json",
+  "include": ["stacks/**/*", "backend/src/**/*", "common/src/**/*"]
+}
